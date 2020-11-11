@@ -38,9 +38,7 @@ class CardComponent extends Component {
       },
     };
   }
-  // handleOptionChange = (e) => {
-  //   this.setState({ option: e.target.value });
-  // };
+  
   render() {
     const starsprop = {
       size: 15,
