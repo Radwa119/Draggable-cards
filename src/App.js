@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 // Styling
 import './App.css';
 // Components
@@ -16,7 +16,6 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          {/* <Route exact path="" component={Card} /> */}
           <CardComponent />
         </div>
       </Router>
