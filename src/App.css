@@ -68,8 +68,7 @@
   color: #616264;
   font-size: 14px;
 }
-.card-container {
-  /* margin-right: 50px; */
+.smooth-dnd-container.horizontal > .smooth-dnd-draggable-wrapper{  /* margin-right: 50px; */
   border-right: #b4b4b4 solid 1px;
 }
 
